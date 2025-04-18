@@ -1,0 +1,117 @@
+*{
+    background: whitesmoke;          
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#logoutbtn{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#logoutbtn:hover{
+    background: blue;
+    transition: 0.7s;
+    height: 50px;
+    border: 3px solid black;
+    color: white;
+}
+
+#editbtn{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#editbtn:hover{
+    background: blue;
+    transition: 0.7s;
+    height: 50px;
+    border: 3px solid black;
+    color: white;
+}
+
+.wrapper{
+    background: skyblue;
+    width: 500px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border: solid 3px blue;
+}
+
+.photo-box{
+    background-image: url("../images/default-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 3px blue;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#upload{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#upload:hover{
+    background: blue;
+    transition: 0.7s;
+    height: 50px;
+    border: 3px solid black;
+    color: white;
+}
+
+.form{
+    display: block;
+    margin: auto;
+    background: inherit;
+}
+
+.name{
+    text-align: center;
+    background: inherit;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.submit-form{
+    display: none;
+}
+
+.photo{
+    width: 144px;
+    border-radius: 8px;
+}

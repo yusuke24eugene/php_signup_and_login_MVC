@@ -1,0 +1,177 @@
+*{
+    background: whitesmoke;          
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    -webkit-tap-highlight-color: transparent;
+}
+.container{
+    background: skyblue;
+    height: fit-content;
+    width: 350px;
+    border: 5px solid blue;
+    margin: auto;
+    border-radius: 30px;
+}
+.login{
+    color: black;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: inherit;
+}
+.form{
+    background: inherit;
+    border-radius: 30px;
+}
+#login{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+}
+#password{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#loginbtn{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.or{
+    background: inherit;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#signup{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+#firstname{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#lastname{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+.bdate{
+    margin: 10px auto;
+    display: block;
+    background-color: inherit;
+    padding: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.blabel{
+    display: inline-block;
+    background-color: inherit;
+    font-weight: bold;
+}
+#birth{
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid blue;
+}
+.gender{
+    margin: auto;
+    display: block;
+    background-color: inherit;
+    padding: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.genlabel,.malelabel,.femalelabel,.otherslabel{
+    font-weight: bold;
+    font-size: 15px;
+    background: inherit;
+    display: inline-block;
+}
+#male,#female,#others
+{
+    margin: 0;
+    display: inline-block;
+}
+#num{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#repassword{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#loginbtn:hover{
+    background: blue;
+    transition: 0.7s;
+    height: 50px;
+    border: 3px solid black;
+    color: white;
+}
+#signup:hover{
+    background: blue;
+    transition: 0.7s;
+    height: 50px;
+    border: 3px solid black;
+    color: white;
+}
+#email{
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.form-error{
+    background: inherit;
+    border-radius: 10px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.form-success{
+    background: inherit;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
